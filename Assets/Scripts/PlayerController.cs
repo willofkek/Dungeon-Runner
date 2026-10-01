@@ -28,8 +28,9 @@ public class PlayerController : MonoBehaviour
     {
         if (ctx.started)
         {
+            swordOffset.localPosition = ctx.ReadValue<Vector2>();
             GameObject attack = Instantiate(swordSwing, swordOffset.position, swordOffset.rotation);
-            Rigidbody2D rigidbody = swordSwing.GetComponent<Rigidbody2D>(); 
+            Rigidbody rigidbody = swordSwing.GetComponent<Rigidbody>(); 
 
             rigidbody.linearVelocity = swordSpeed * transform.up;
 
