@@ -1,5 +1,6 @@
+using System;
 using UnityEngine;
-using static UnityEditor.Experimental.GraphView.GraphView;
+using UnityEngine.SceneManagement;
 
 public class EnemyController : MonoBehaviour
 {
@@ -19,5 +20,13 @@ public class EnemyController : MonoBehaviour
         Vector3 enemyToPlayerVector = player.position - transform.position;
         targetDirection = enemyToPlayerVector.normalized;
         rigidbody.linearVelocity = targetDirection * speed;
+        if (player == null)
+        {
+            float playerDeath = Time.time;
+            if (Time.time - playerDeath >= 3)
+            {
+                SceneManager.LoadScene("MenuScene");
+            }
+        }
     }
 }

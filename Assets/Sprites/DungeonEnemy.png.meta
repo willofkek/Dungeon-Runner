@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: a5155d6862495e345b259b4071d91646
+guid: 66623183c28aee143865be18db506a81
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -7283449648599125601
-    second: DungeonGuy_0
+      213: -5610437275660050492
+    second: DungeonEnemy_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -25,7 +25,7 @@ TextureImporter:
     normalMapFilter: 0
     flipGreenChannel: 0
   isReadable: 0
-  streamingMipmaps: 1
+  streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
   ignoreMipmapLimit: 0
@@ -47,7 +47,7 @@ TextureImporter:
   lightmap: 0
   compressionQuality: 50
   spriteMode: 1
-  spriteExtrude: 0
+  spriteExtrude: 1
   spriteMeshType: 0
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
@@ -76,7 +76,7 @@ TextureImporter:
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 0
-    compressionQuality: 100
+    compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
@@ -126,12 +126,12 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: DungeonGuy_0
+      name: DungeonEnemy_0
       rect:
         serializedVersion: 2
-        x: 5
+        x: 7
         y: 0
-        width: 22
+        width: 18
         height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -141,8 +141,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: f913ecb422dfbea90800000000000000
-      internalID: -7283449648599125601
+      spriteID: 4cf1cade509b322b0800000000000000
+      internalID: -5610437275660050492
       vertices: []
       indices: 
       edges: []
@@ -161,7 +161,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      DungeonGuy_0: -7283449648599125601
+      DungeonEnemy_0: -5610437275660050492
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
